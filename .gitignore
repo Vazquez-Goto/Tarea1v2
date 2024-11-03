@@ -1,0 +1,16 @@
+#Ignora el archivo con nombre "debug .log" en la carpeta especifica
+# " / " carpeta raiz
+
+# /debug.log
+
+#Ignora cualquier archivo llamado "debug.log"
+#no lleva slash
+# debug.log
+
+#Ignora cualquier archivo con extencion ".log"
+
+*.log
+
+#Ignora todas las carpetas "logs"
+
+#**/logs
